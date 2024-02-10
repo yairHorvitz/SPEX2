@@ -9,12 +9,19 @@ int main()
     while (letter != 'D')
     {
         if (letter == 'A')
-        {matrixVarible(matrix);}
+        {
+            matrixVarible(matrix);
+        }
         if (letter == 'B')
-        {pathExist(matrix);}
+        {
+
+            pathExist(matrix);
+           
+        }
         if (letter == 'C')
-        {int ans=shortestPath(matrix);
-         printf("%d\n",ans);}
+        {
+            printf("%d\n", shortestPath(matrix));
+        }
         scanf("%c", &letter);
     }
 }
