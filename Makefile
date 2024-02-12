@@ -4,7 +4,7 @@
 all: my_graph my_mat.a my_Knapsack
 
 clean: 
-	rm -f *.o *.a my_graph
+	rm -f *.o *.a my_graph my_Knapsack
 	
 my_graph.o: my_graph.c my_mat.h
 	gcc -Wall -c my_graph.c -o my_graph.o
