@@ -59,8 +59,8 @@ for (int k = 0; k < COLS; k++)     //number of edges
    //     for (size_t j = 0; j < 10; j++)
        // printf("after the shortest %d\n", matrix[i][j]);
 
-if(matrix[c][r]!=__INT_MAX__){printf("TRUE\n");}
-else{printf("FALSE\n");}
+if(matrix[c][r]!=__INT_MAX__){printf("True\n");}
+else{printf("False\n");}
 
 }
 
