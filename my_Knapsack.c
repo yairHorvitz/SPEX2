@@ -25,7 +25,7 @@ int main()
 
     int maxProfit = knapSack(weights, values, selected_bool);
   
-    printf("Maximum profit is: %d", maxProfit);
+    printf("Maximum profit: %d", maxProfit);
     int counter = 0;
     for (int i = 0; i < products; i++)
     {
